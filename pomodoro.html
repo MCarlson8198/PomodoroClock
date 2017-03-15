@@ -1,0 +1,46 @@
+<DOCTYPE! html>
+  <html>
+    <head>
+      <title>Pomodoro Clock</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" async></script>
+
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="pomodoro.css" rel="stylesheet" type="text/css">
+    </head>
+    <body class="jumbotron">
+  <div class="container-fluid">
+    <div class="row">
+          <div class="breakCounter">
+            <p id="para">BREAK LENGTH</p>
+              <div class="flex-container2">
+                <button class="coolio" onclick="downBreak()">-</button>
+                <span id="break" value="0">5</span>
+                <button class="coolio"  onclick="upBreak()">+</button>
+              </div>
+          </div>
+        <div class="sessionCounter">
+          <p id="para">SESSION LENGTH</p>
+            <div class="flex-container2">
+              <button class="coolio"  onclick="downSession()">-</button>
+              <span id="session" value="0">25</span>
+              <button class="coolio"  onclick="upSession()">+</button>
+            </div>
+        </div>
+
+      <div class="flex-container1">
+        <div>
+          <p id="timer">25</p>
+        </div>
+        <div id="btnHolder">
+          <button class="coolio"  id="start">Start</button>
+          <button class="coolio"  id="pause">Pause</button>
+          <button class="coolio"  id="resume">Resume</button>
+        </div>
+      </div>
+     </div>
+  </div>
+  <script src="pomodoro.js"></script>
+</body>
+
+  </html>

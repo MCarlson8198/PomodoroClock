@@ -1,0 +1,99 @@
+.jumbotron {
+  background-color: #3a7bd5;
+}
+
+.row{
+  margin: auto;
+  justify-content: center;
+    width: 550px;
+    height: auto;
+    background-color: lightgrey;
+  background: #e96443;
+  background: -webkit-linear-gradient(#e96443, #904e95);
+  background: -o-linear-gradient(#e96443, #904e95);
+  background: -moz-linear-gradient(#e96443, #904e95);
+  background: linear-gradient(#e96443, #904e95);
+  -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+}
+}
+
+.flex-container {
+   margin: auto;
+  padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: auto;
+    background-color: lightgrey;
+}
+
+.flex-container1 {
+    margin: auto;
+    padding-bottom: 20px;
+    justify-content: center;
+    width: 500px;
+    height: auto;
+    font-size: 24px;
+}
+
+.flex-container2 {
+  display: flex;
+    justify-content: center;
+  margin: auto;
+
+}
+
+#para {
+  font-size: 24px;
+}
+
+.breakCounter {
+
+  float: left;
+  text-align: center;
+  font-size: 30px;
+   background-color: transparent;
+    width: 220px;
+    height: 120px;
+    margin: 20px;
+   border-radius: 4px;
+}
+
+#break {
+  margin: 5px;
+}
+
+.sessionCounter {
+
+  float: right;
+  text-align: center;
+  font-size: 30px;
+   background-color: transparent;
+    width: 220px;
+    height: 120px;
+    margin: 20px;
+  border-radius: 4px;
+
+}
+
+#session {
+  margin: 5px;
+}
+
+#timer {
+  text-align: center;
+  font-size: 70px;
+  clear: both;
+  color: #ff4b1f;
+}
+
+#btnHolder {
+  text-align: center;
+}
+
+.coolio {
+  border: none;
+  background-color: transparent;
+}
